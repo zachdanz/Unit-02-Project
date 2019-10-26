@@ -1,2 +1,2 @@
 # Unit-02-Project
- Second Project in my FE TechDegree with Treehouse
+ My project for Unit 2 of the Treehouse Front End Tech Degree
