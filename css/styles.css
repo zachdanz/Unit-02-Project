@@ -81,11 +81,14 @@ header {
 .contact p {
     padding-bottom: 30px;
     margin-bottom: 0;
+    margin-top: 0;
     /* border-bottom: 2px solid darkgrey; */
 }
 
-.contact {
-    padding-top: 1em;
+#portfolio,
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .contact,
@@ -107,17 +110,21 @@ ul {
 }
 
 .main-nav a {
-    font-size: .95em;
+    font-size: 1.25em;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
+    width: 90%;
     text-align: center;
-    padding: 1em;
-    background-color: rgb(217,249,255)
+    padding: .6em;
+    background-color: rgb(217,249,255);
 }
 
 .main-nav a:hover {
-    background-color: rgba(217,249,255, 0.5)
+    background-color: rgba(217,249,255, 0.5);
+    color: rgba(0,0,0,.6)
 }
 
 .main-nav li {
@@ -133,8 +140,9 @@ ul {
 
 /* ---- Page Elements ---- */
 
+
 .profile-pic {
-    border: black solid 4px;
+    margin-top: 70px;
 }
 
 .logo {
