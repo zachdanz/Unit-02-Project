@@ -254,6 +254,10 @@ ul {
         margin: 0 auto;
     }
 
+    .wrap {
+        max-height:calc (100vh - 123.359px);
+    }
+
 	/* ---- Float clearfix ---- */
 
 	.clearfix::after {
