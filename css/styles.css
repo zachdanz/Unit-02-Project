@@ -57,6 +57,11 @@ header {
     margin: 0 auto;
 }
 
+.skill {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .skill h3 {
     font-size: 1.2em;
     margin-top: 15px;
@@ -118,7 +123,7 @@ ul {
 }
 
 .main-nav a, 
-.footer-nav {
+.footer-nav a{
     font-size: 1.25em;
     text-transform: uppercase;
     margin-top: 7px;
@@ -136,7 +141,8 @@ ul {
     color: rgba(0,0,0,.6)
 }
 
-.main-nav li {
+.main-nav li,
+.footer-nav li {
     list-style: none;
 }
 
@@ -148,10 +154,6 @@ ul {
 
 .container {
     width: 100%;
-}
-
-.wrap {
-
 }
 
 
@@ -196,10 +198,21 @@ ul {
         padding:10px;
         background-color: lightgrey;
     }
+
     .footer-nav {
-        display: block;
         float: right;
-        
+        display: inline-block;
+
+    }
+
+    .footer-nav li{
+        float: left;
+    }
+
+    .footer-nav a {
+        float: right;
+        background-color: lightgrey;
+
     }
 
     .profile-pic {
@@ -229,8 +242,6 @@ ul {
         display: none;
     }
 
-    }
-
     /* ---- Layout Containers ---- */
 
     .container {
@@ -251,12 +262,15 @@ ul {
 		clear: both;
 	}
 
+}
 
 
 @media (min-width: 1025px) {
 
     .name {
         text-align: left;
+        margin-left: 20px;
+        float: left;
     }
 
     .container {
@@ -274,6 +288,7 @@ ul {
 
     .main-nav {
         float: right;
+        width: 500px;
     }
 
     .main-nav li {
