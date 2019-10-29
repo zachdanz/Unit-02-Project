@@ -179,42 +179,6 @@ ul {
 
 @media (min-width: 769px) {
 
-    /* ---- Navigation ---- */
-
-    .main-nav {
-        margin: 0 auto;
-        justify-content: space-around;
-    }
-
-    .main-nav li {
-        display: inline;
-        text-align:center;
-        width: 10%;
-        margin: 0 auto;
-    }
-
-    .main-nav a{
-        display:inline-block;
-        padding:10px;
-        background-color: lightgrey;
-    }
-
-    .footer-nav {
-        float: right;
-        display: inline-block;
-
-    }
-
-    .footer-nav li{
-        float: left;
-    }
-
-    .footer-nav a {
-        float: right;
-        background-color: lightgrey;
-
-    }
-
     .profile-pic {
         float: right;
         margin-right: 20px;
@@ -233,10 +197,50 @@ ul {
         width: 60%;
     }
 
+
+    /* ---- Navigation ---- */
+
+    nav {
+        display:inline-block;
+    }
+
+    .main-nav {
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+
+    .main-nav li {
+        display: inline;
+        text-align:center;
+        margin: 0 auto;
+    }
+
+    .main-nav a{
+        display:inline-block;
+        padding:10px;
+        background-color: lightgrey;
+    }
+
+    .footer-nav {
+        float: right;
+        display: inline-block;
+    }
+
+    .footer-nav li{
+        float: left;
+    }
+
+    .footer-nav a {
+        float: right;
+        background-color: lightgrey;
+    }
+
     .container,
     .education {
         clear: both;
     }
+
+    /* ---- Page Elements ---- */
 
     .top-button {
         display: none;
@@ -290,6 +294,12 @@ ul {
         padding-right: 5px;
     }
 
+    /* ---- Navigation ---- */
+
+    nav {
+        display: inline-block;
+    }
+
     .main-nav {
         float: right;
         width: 500px;
@@ -298,6 +308,10 @@ ul {
     .main-nav li {
         float: left;
     }
+
+    /* ---- Page Elements ---- */
+
+
 	/* ---- Float clearfix ---- */
 
 	.clearfix::after {
