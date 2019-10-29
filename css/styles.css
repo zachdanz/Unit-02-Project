@@ -167,25 +167,21 @@ ul {
 
     /* ---- Navigation ---- */
 
-    .name {
-    }
-
     .main-nav {
-        top: 110px;
-        left: 50%;
         margin: 0 auto;
         justify-content: space-around;
-
     }
 
     .main-nav li {
-        float: left;
+        display: inline;
+        text-align:center;
     }
 
     .main-nav a{
+        display:inline-block;
+        padding:10px;
         background-color: lightgrey;
-        display: inline;
-        width: 60px;
+        width: 150px;
     }
 
     .profile-pic {
@@ -200,6 +196,17 @@ ul {
     }
 
     header {
+    }
+    /* ---- Layout Containers ---- */
+
+    .container {
+        background-color: white;
+    }
+    .skill {
+        display: block;
+        width: 45%;
+        float: left;
+        margin: 0 auto;
     }
 
 	/* ---- Float clearfix ---- */
