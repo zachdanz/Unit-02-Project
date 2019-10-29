@@ -165,9 +165,42 @@ ul {
 
 @media (min-width: 769px) {
 
+    /* ---- Navigation ---- */
 
+    .name {
+    }
 
+    .main-nav {
+        top: 110px;
+        left: 50%;
+        margin: 0 auto;
+        justify-content: space-around;
 
+    }
+
+    .main-nav li {
+        float: left;
+    }
+
+    .main-nav a{
+        background-color: lightgrey;
+        display: inline;
+        width: 60px;
+    }
+
+    .profile-pic {
+        float: right;
+        margin-right: 20px;
+    }
+
+    .about-me {
+        float: left;
+        text-align: left;
+        background-color: lightgray;
+    }
+
+    header {
+    }
 
 	/* ---- Float clearfix ---- */
 
