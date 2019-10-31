@@ -21,12 +21,14 @@ h1 {
     padding-top: .5em;
     text-align: center;
     font-size: 3em;
+    color: darkblue;
 }
 
 h2 {
     text-align: center;
     font-size: 1.75em;
     text-transform: uppercase;
+    color: darkblue;
 }
 
 p {
@@ -251,9 +253,9 @@ ul {
         margin: 0 auto;
     }
 
-    .wrap {
-        max-height:calc (100vh - 123.359px);
-    }
+    /* .wrap {
+        max-height:calc(100vh - 123.359px);
+    } */
 
 	/* ---- Float clearfix ---- */
 
@@ -264,7 +266,6 @@ ul {
 	}
 
 }
-
 
 @media (min-width: 1024px) {
 
