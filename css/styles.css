@@ -114,8 +114,9 @@ footer {
 footer p {
     display: inline-block;
     text-transform: uppercase;
-    margin: 3em 1em 2em 1em;
+    margin: 1em 1em 2em 1em;
     padding: 1em;
+    font-size: 20px;
 }
 
 /* ---- Navigation ---- */
@@ -190,13 +191,12 @@ ul {
         width: 30%;
         margin-top: 0;
         float: right;
-        max-height: 163px;
     }
 
     .about-me {
         background-color: lightgray;
         margin: 0 auto;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
 
     .about-me p {
@@ -217,6 +217,7 @@ ul {
     } 
     
     footer{
+        border-top: rgba(0, 0, 0, 0.5) 1px solid;
         content: "";
         display: table;
         clear: both;
@@ -227,6 +228,7 @@ ul {
     .footer-nav {
         display: block;
         float: right;
+        margin-right: 20px;
     }
 
     .footer-nav li{
@@ -247,6 +249,10 @@ ul {
 
     .top-button {
         display: none;
+    }
+
+    .zach {
+        float: left;
     }
 
     /* ---- Layout Containers ---- */
