@@ -201,17 +201,15 @@ ul {
     /* ---- Navigation ---- */
 
     nav {
-        display:inline-block;
+        display: inline-block;
     }
 
     .main-nav {
         margin: 0 auto;
-        justify-content: space-around;
     }
 
     .main-nav li {
         display: inline;
-        text-align:center;
         margin: 0 auto;
     }
 
@@ -219,8 +217,8 @@ ul {
         display:inline-block;
         padding:10px;
         background-color: lightgrey;
-    }
-
+    } 
+    
     .footer-nav {
         float: right;
         display: inline-block;
@@ -274,6 +272,11 @@ ul {
 
 
 @media (min-width: 1025px) {
+
+    .container {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
 
     .name {
         text-align: left;
