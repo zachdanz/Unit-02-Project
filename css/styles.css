@@ -176,28 +176,29 @@ ul {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
     header {
         text-align: center;
     }
 
     .profile-pic {
-        float: right;
-        margin-right: 20px;
+        margin-right: 30px;
+        margin-left: 20px;
         width: 30%;
+        margin-top: 0;
+        float: right;
+        max-height: 163px;
     }
 
     .about-me {
         background-color: lightgray;
-        width: 90%;
         margin: 0 auto;
+        padding-bottom: 50px;
     }
 
     .about-me p {
-        float: left;
         text-align: left;
-        width: 60%;
     }
 
 
@@ -214,7 +215,8 @@ ul {
     } 
     
     .footer-nav {
-        display: inline-block;
+        display: block;
+        float: right;
     }
 
     .footer-nav li{
@@ -264,7 +266,7 @@ ul {
 }
 
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
 
     .container {
         max-width: 1150px;
@@ -275,10 +277,6 @@ ul {
         text-align: left;
         margin-left: 20px;
         float: left;
-    }
-
-    .container {
-        background-color: white;
     }
 
     .skill {
@@ -300,6 +298,8 @@ ul {
 
 
     .main-nav {
+    float: right;
+    margin-right: 30px;
     }
 
     .main-nav li {
@@ -308,6 +308,10 @@ ul {
 
     /* ---- Page Elements ---- */
 
+    .about-me {
+        clear: both;
+        padding-top: 50px;
+    }
 
 	/* ---- Float clearfix ---- */
 
