@@ -116,7 +116,7 @@ footer p {
     text-transform: uppercase;
     margin: 1em 1em 2em 1em;
     padding: 1em;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* ---- Navigation ---- */
@@ -253,6 +253,7 @@ ul {
 
     .zach {
         float: left;
+        font-size: 20px;
     }
 
     /* ---- Layout Containers ---- */
